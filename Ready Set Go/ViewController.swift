@@ -10,9 +10,27 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func signUpButtonPressed(sender: AnyObject) {
+        
+        self.performSegueWithIdentifier("signUpPush", sender: self)
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "signUpPush" {
+            let destination = segue.destinationViewController as! signUpViewController
+            print("going to sign up")
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let tap = UITapGestureRecognizer(target: self, action: #selector(ViewController.dismissKeyboard))
+        view.addGestureRecognizer(tap)
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    func dismissKeyboard() {
+        view.endEditing(true)
     }
 
     override func didReceiveMemoryWarning() {

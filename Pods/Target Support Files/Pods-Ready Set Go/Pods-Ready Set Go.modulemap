@@ -1,0 +1,6 @@
+framework module Pods_Ready_Set_Go {
+  umbrella header "Pods-Ready Set Go-umbrella.h"
+
+  export *
+  module * { export * }
+}

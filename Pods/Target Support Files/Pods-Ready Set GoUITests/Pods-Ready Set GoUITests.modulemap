@@ -1,0 +1,6 @@
+framework module Pods_Ready_Set_GoUITests {
+  umbrella header "Pods-Ready Set GoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

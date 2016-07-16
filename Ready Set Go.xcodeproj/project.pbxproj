@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20E2B7F9CB169FBE482DC626 /* Pods_Ready_Set_GoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33BD8D10DC9502B4619C22D1 /* Pods_Ready_Set_GoTests.framework */; };
+		56A84610F97EE2C73AE0D4A7 /* Pods_Ready_Set_Go.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EBD3BBFAB8081C9B231B872 /* Pods_Ready_Set_Go.framework */; };
+		77088B643F5B8A1C7096EDAD /* Pods_Ready_Set_GoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6752F92334A1910B8EEE46A /* Pods_Ready_Set_GoUITests.framework */; };
 		E63951FD1D3A23EF002D2CD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63951FC1D3A23EF002D2CD7 /* AppDelegate.swift */; };
 		E63951FF1D3A23EF002D2CD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63951FE1D3A23EF002D2CD7 /* ViewController.swift */; };
 		E63952021D3A23EF002D2CD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E63952001D3A23EF002D2CD7 /* Main.storyboard */; };
@@ -14,6 +17,44 @@
 		E63952071D3A23EF002D2CD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E63952051D3A23EF002D2CD7 /* LaunchScreen.storyboard */; };
 		E63952121D3A23EF002D2CD7 /* Ready_Set_GoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63952111D3A23EF002D2CD7 /* Ready_Set_GoTests.swift */; };
 		E639521D1D3A23EF002D2CD7 /* Ready_Set_GoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E639521C1D3A23EF002D2CD7 /* Ready_Set_GoUITests.swift */; };
+		E639522B1D3A26D5002D2CD7 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = E639522A1D3A26D5002D2CD7 /* bg.png */; };
+		E639522D1D3A2875002D2CD7 /* mark.png in Resources */ = {isa = PBXBuildFile; fileRef = E639522C1D3A2875002D2CD7 /* mark.png */; };
+		E639522F1D3A28D6002D2CD7 /* password.png in Resources */ = {isa = PBXBuildFile; fileRef = E639522E1D3A28D6002D2CD7 /* password.png */; };
+		E63952301D3A28D6002D2CD7 /* password.png in Resources */ = {isa = PBXBuildFile; fileRef = E639522E1D3A28D6002D2CD7 /* password.png */; };
+		E63952321D3A28DC002D2CD7 /* username icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E63952311D3A28DC002D2CD7 /* username icon.png */; };
+		E63952331D3A28DC002D2CD7 /* username icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E63952311D3A28DC002D2CD7 /* username icon.png */; };
+		E63952351D3A2A6C002D2CD7 /* img.png in Resources */ = {isa = PBXBuildFile; fileRef = E63952341D3A2A6C002D2CD7 /* img.png */; };
+		E63952361D3A2A6C002D2CD7 /* img.png in Resources */ = {isa = PBXBuildFile; fileRef = E63952341D3A2A6C002D2CD7 /* img.png */; };
+		E63952381D3A3336002D2CD7 /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = E63952371D3A3336002D2CD7 /* email.png */; };
+		E63952391D3A3336002D2CD7 /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = E63952371D3A3336002D2CD7 /* email.png */; };
+		E639523B1D3A361C002D2CD7 /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E639523A1D3A361C002D2CD7 /* signUpViewController.swift */; };
+		E639523C1D3A361C002D2CD7 /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E639523A1D3A361C002D2CD7 /* signUpViewController.swift */; };
+		E639523E1D3A4283002D2CD7 /* Rectangle 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E639523D1D3A4283002D2CD7 /* Rectangle 1.png */; };
+		E639523F1D3A4283002D2CD7 /* Rectangle 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E639523D1D3A4283002D2CD7 /* Rectangle 1.png */; };
+		E63952411D3A433C002D2CD7 /* Rectangle 2.png in Resources */ = {isa = PBXBuildFile; fileRef = E63952401D3A433C002D2CD7 /* Rectangle 2.png */; };
+		E63952421D3A433C002D2CD7 /* Rectangle 2.png in Resources */ = {isa = PBXBuildFile; fileRef = E63952401D3A433C002D2CD7 /* Rectangle 2.png */; };
+		E63952441D3A4520002D2CD7 /* patientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63952431D3A4520002D2CD7 /* patientViewController.swift */; };
+		E63952451D3A4520002D2CD7 /* patientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63952431D3A4520002D2CD7 /* patientViewController.swift */; };
+		E63952471D3A452F002D2CD7 /* familyMemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63952461D3A452F002D2CD7 /* familyMemberViewController.swift */; };
+		E63952481D3A452F002D2CD7 /* familyMemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63952461D3A452F002D2CD7 /* familyMemberViewController.swift */; };
+		E639524A1D3A479B002D2CD7 /* Rectangle 3.png in Resources */ = {isa = PBXBuildFile; fileRef = E63952491D3A479B002D2CD7 /* Rectangle 3.png */; };
+		E639524B1D3A479B002D2CD7 /* Rectangle 3.png in Resources */ = {isa = PBXBuildFile; fileRef = E63952491D3A479B002D2CD7 /* Rectangle 3.png */; };
+		E639524F1D3A4881002D2CD7 /* patient frame.png in Resources */ = {isa = PBXBuildFile; fileRef = E639524C1D3A4881002D2CD7 /* patient frame.png */; };
+		E63952501D3A4881002D2CD7 /* patient frame.png in Resources */ = {isa = PBXBuildFile; fileRef = E639524C1D3A4881002D2CD7 /* patient frame.png */; };
+		E63952511D3A4881002D2CD7 /* family member frame.png in Resources */ = {isa = PBXBuildFile; fileRef = E639524D1D3A4881002D2CD7 /* family member frame.png */; };
+		E63952521D3A4881002D2CD7 /* family member frame.png in Resources */ = {isa = PBXBuildFile; fileRef = E639524D1D3A4881002D2CD7 /* family member frame.png */; };
+		E63952531D3A4881002D2CD7 /* doctor frame.png in Resources */ = {isa = PBXBuildFile; fileRef = E639524E1D3A4881002D2CD7 /* doctor frame.png */; };
+		E63952541D3A4881002D2CD7 /* doctor frame.png in Resources */ = {isa = PBXBuildFile; fileRef = E639524E1D3A4881002D2CD7 /* doctor frame.png */; };
+		E63952561D3A4A15002D2CD7 /* img 2.png in Resources */ = {isa = PBXBuildFile; fileRef = E63952551D3A4A15002D2CD7 /* img 2.png */; };
+		E63952571D3A4A15002D2CD7 /* img 2.png in Resources */ = {isa = PBXBuildFile; fileRef = E63952551D3A4A15002D2CD7 /* img 2.png */; };
+		E63952591D3A4E51002D2CD7 /* Oval 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E63952581D3A4E51002D2CD7 /* Oval 1.png */; };
+		E639525A1D3A4E51002D2CD7 /* Oval 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E63952581D3A4E51002D2CD7 /* Oval 1.png */; };
+		E639525C1D3A4E9C002D2CD7 /* Oval 2.png in Resources */ = {isa = PBXBuildFile; fileRef = E639525B1D3A4E9C002D2CD7 /* Oval 2.png */; };
+		E639525D1D3A4E9C002D2CD7 /* Oval 2.png in Resources */ = {isa = PBXBuildFile; fileRef = E639525B1D3A4E9C002D2CD7 /* Oval 2.png */; };
+		E639525F1D3A4EE9002D2CD7 /* Oval 3.png in Resources */ = {isa = PBXBuildFile; fileRef = E639525E1D3A4EE9002D2CD7 /* Oval 3.png */; };
+		E63952601D3A4EE9002D2CD7 /* Oval 3.png in Resources */ = {isa = PBXBuildFile; fileRef = E639525E1D3A4EE9002D2CD7 /* Oval 3.png */; };
+		E63952621D3A737C002D2CD7 /* Oval 4.png in Resources */ = {isa = PBXBuildFile; fileRef = E63952611D3A737C002D2CD7 /* Oval 4.png */; };
+		E63952631D3A737C002D2CD7 /* Oval 4.png in Resources */ = {isa = PBXBuildFile; fileRef = E63952611D3A737C002D2CD7 /* Oval 4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +75,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1337A91500E642337E2DCAB4 /* Pods-Ready Set Go.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ready Set Go.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ready Set Go/Pods-Ready Set Go.debug.xcconfig"; sourceTree = "<group>"; };
+		33BD8D10DC9502B4619C22D1 /* Pods_Ready_Set_GoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ready_Set_GoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EAD0C728CB01B3B1B4B40D7 /* Pods-Ready Set GoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ready Set GoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ready Set GoUITests/Pods-Ready Set GoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4EBD3BBFAB8081C9B231B872 /* Pods_Ready_Set_Go.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ready_Set_Go.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7345BA1306CB17A9662AE59F /* Pods-Ready Set Go.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ready Set Go.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ready Set Go/Pods-Ready Set Go.release.xcconfig"; sourceTree = "<group>"; };
+		B25444BD211F384488B58C71 /* Pods-Ready Set GoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ready Set GoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ready Set GoTests/Pods-Ready Set GoTests.release.xcconfig"; sourceTree = "<group>"; };
+		D6752F92334A1910B8EEE46A /* Pods_Ready_Set_GoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ready_Set_GoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE3D06FF911E537EE7F7E566 /* Pods-Ready Set GoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ready Set GoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ready Set GoUITests/Pods-Ready Set GoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E63951F91D3A23EF002D2CD7 /* Ready Set Go.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ready Set Go.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E63951FC1D3A23EF002D2CD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E63951FE1D3A23EF002D2CD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +96,27 @@
 		E63952181D3A23EF002D2CD7 /* Ready Set GoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ready Set GoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E639521C1D3A23EF002D2CD7 /* Ready_Set_GoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ready_Set_GoUITests.swift; sourceTree = "<group>"; };
 		E639521E1D3A23EF002D2CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E639522A1D3A26D5002D2CD7 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		E639522C1D3A2875002D2CD7 /* mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mark.png; sourceTree = "<group>"; };
+		E639522E1D3A28D6002D2CD7 /* password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password.png; sourceTree = "<group>"; };
+		E63952311D3A28DC002D2CD7 /* username icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "username icon.png"; sourceTree = "<group>"; };
+		E63952341D3A2A6C002D2CD7 /* img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img.png; sourceTree = "<group>"; };
+		E63952371D3A3336002D2CD7 /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email.png; sourceTree = "<group>"; };
+		E639523A1D3A361C002D2CD7 /* signUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
+		E639523D1D3A4283002D2CD7 /* Rectangle 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle 1.png"; sourceTree = "<group>"; };
+		E63952401D3A433C002D2CD7 /* Rectangle 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle 2.png"; sourceTree = "<group>"; };
+		E63952431D3A4520002D2CD7 /* patientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = patientViewController.swift; sourceTree = "<group>"; };
+		E63952461D3A452F002D2CD7 /* familyMemberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = familyMemberViewController.swift; sourceTree = "<group>"; };
+		E63952491D3A479B002D2CD7 /* Rectangle 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle 3.png"; sourceTree = "<group>"; };
+		E639524C1D3A4881002D2CD7 /* patient frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "patient frame.png"; sourceTree = "<group>"; };
+		E639524D1D3A4881002D2CD7 /* family member frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "family member frame.png"; sourceTree = "<group>"; };
+		E639524E1D3A4881002D2CD7 /* doctor frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "doctor frame.png"; sourceTree = "<group>"; };
+		E63952551D3A4A15002D2CD7 /* img 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img 2.png"; sourceTree = "<group>"; };
+		E63952581D3A4E51002D2CD7 /* Oval 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Oval 1.png"; sourceTree = "<group>"; };
+		E639525B1D3A4E9C002D2CD7 /* Oval 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Oval 2.png"; sourceTree = "<group>"; };
+		E639525E1D3A4EE9002D2CD7 /* Oval 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Oval 3.png"; sourceTree = "<group>"; };
+		E63952611D3A737C002D2CD7 /* Oval 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Oval 4.png"; sourceTree = "<group>"; };
+		ED473C9975E0B7E9E799432B /* Pods-Ready Set GoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ready Set GoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ready Set GoTests/Pods-Ready Set GoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56A84610F97EE2C73AE0D4A7 /* Pods_Ready_Set_Go.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20E2B7F9CB169FBE482DC626 /* Pods_Ready_Set_GoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +140,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77088B643F5B8A1C7096EDAD /* Pods_Ready_Set_GoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		724CC6286131D4EF5858124F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1337A91500E642337E2DCAB4 /* Pods-Ready Set Go.debug.xcconfig */,
+				7345BA1306CB17A9662AE59F /* Pods-Ready Set Go.release.xcconfig */,
+				ED473C9975E0B7E9E799432B /* Pods-Ready Set GoTests.debug.xcconfig */,
+				B25444BD211F384488B58C71 /* Pods-Ready Set GoTests.release.xcconfig */,
+				3EAD0C728CB01B3B1B4B40D7 /* Pods-Ready Set GoUITests.debug.xcconfig */,
+				DE3D06FF911E537EE7F7E566 /* Pods-Ready Set GoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A8CE9E04B6E2BD058674506B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EBD3BBFAB8081C9B231B872 /* Pods_Ready_Set_Go.framework */,
+				33BD8D10DC9502B4619C22D1 /* Pods_Ready_Set_GoTests.framework */,
+				D6752F92334A1910B8EEE46A /* Pods_Ready_Set_GoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E63951F01D3A23EF002D2CD7 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +177,8 @@
 				E63952101D3A23EF002D2CD7 /* Ready Set GoTests */,
 				E639521B1D3A23EF002D2CD7 /* Ready Set GoUITests */,
 				E63951FA1D3A23EF002D2CD7 /* Products */,
+				724CC6286131D4EF5858124F /* Pods */,
+				A8CE9E04B6E2BD058674506B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +195,32 @@
 		E63951FB1D3A23EF002D2CD7 /* Ready Set Go */ = {
 			isa = PBXGroup;
 			children = (
+				E63952371D3A3336002D2CD7 /* email.png */,
+				E639522C1D3A2875002D2CD7 /* mark.png */,
+				E63952551D3A4A15002D2CD7 /* img 2.png */,
+				E639525E1D3A4EE9002D2CD7 /* Oval 3.png */,
+				E63952341D3A2A6C002D2CD7 /* img.png */,
+				E63952611D3A737C002D2CD7 /* Oval 4.png */,
+				E639524C1D3A4881002D2CD7 /* patient frame.png */,
+				E639524D1D3A4881002D2CD7 /* family member frame.png */,
+				E639525B1D3A4E9C002D2CD7 /* Oval 2.png */,
+				E63952581D3A4E51002D2CD7 /* Oval 1.png */,
+				E639524E1D3A4881002D2CD7 /* doctor frame.png */,
+				E63952401D3A433C002D2CD7 /* Rectangle 2.png */,
+				E63952491D3A479B002D2CD7 /* Rectangle 3.png */,
 				E63951FC1D3A23EF002D2CD7 /* AppDelegate.swift */,
+				E63952311D3A28DC002D2CD7 /* username icon.png */,
+				E639522E1D3A28D6002D2CD7 /* password.png */,
+				E639523D1D3A4283002D2CD7 /* Rectangle 1.png */,
 				E63951FE1D3A23EF002D2CD7 /* ViewController.swift */,
+				E639522A1D3A26D5002D2CD7 /* bg.png */,
 				E63952001D3A23EF002D2CD7 /* Main.storyboard */,
 				E63952031D3A23EF002D2CD7 /* Assets.xcassets */,
 				E63952051D3A23EF002D2CD7 /* LaunchScreen.storyboard */,
 				E63952081D3A23EF002D2CD7 /* Info.plist */,
+				E639523A1D3A361C002D2CD7 /* signUpViewController.swift */,
+				E63952431D3A4520002D2CD7 /* patientViewController.swift */,
+				E63952461D3A452F002D2CD7 /* familyMemberViewController.swift */,
 			);
 			path = "Ready Set Go";
 			sourceTree = "<group>";
@@ -132,9 +250,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E63952211D3A23EF002D2CD7 /* Build configuration list for PBXNativeTarget "Ready Set Go" */;
 			buildPhases = (
+				F0A369DA7E44A52F59C9E034 /* [CP] Check Pods Manifest.lock */,
 				E63951F51D3A23EF002D2CD7 /* Sources */,
 				E63951F61D3A23EF002D2CD7 /* Frameworks */,
 				E63951F71D3A23EF002D2CD7 /* Resources */,
+				F76E637E6716DF496086DA84 /* [CP] Embed Pods Frameworks */,
+				94C2CF33F4A684EE4FA6695F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +270,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E63952241D3A23EF002D2CD7 /* Build configuration list for PBXNativeTarget "Ready Set GoTests" */;
 			buildPhases = (
+				7AE84A0AE2FED809539013CC /* [CP] Check Pods Manifest.lock */,
 				E63952091D3A23EF002D2CD7 /* Sources */,
 				E639520A1D3A23EF002D2CD7 /* Frameworks */,
 				E639520B1D3A23EF002D2CD7 /* Resources */,
+				DAC402D978AB33EB749F0BAF /* [CP] Embed Pods Frameworks */,
+				FA028FB104712DFDF071A68F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +291,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E63952271D3A23EF002D2CD7 /* Build configuration list for PBXNativeTarget "Ready Set GoUITests" */;
 			buildPhases = (
+				06A15AE7850D23C559D7BC91 /* [CP] Check Pods Manifest.lock */,
 				E63952141D3A23EF002D2CD7 /* Sources */,
 				E63952151D3A23EF002D2CD7 /* Frameworks */,
 				E63952161D3A23EF002D2CD7 /* Resources */,
+				9E89B49F030129D37FB98C95 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +319,7 @@
 				TargetAttributes = {
 					E63951F81D3A23EF002D2CD7 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = QL482VMJDE;
 					};
 					E639520C1D3A23EF002D2CD7 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -229,9 +356,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E639522F1D3A28D6002D2CD7 /* password.png in Resources */,
 				E63952071D3A23EF002D2CD7 /* LaunchScreen.storyboard in Resources */,
+				E639523E1D3A4283002D2CD7 /* Rectangle 1.png in Resources */,
+				E63952511D3A4881002D2CD7 /* family member frame.png in Resources */,
+				E63952411D3A433C002D2CD7 /* Rectangle 2.png in Resources */,
+				E639525F1D3A4EE9002D2CD7 /* Oval 3.png in Resources */,
+				E639522D1D3A2875002D2CD7 /* mark.png in Resources */,
 				E63952041D3A23EF002D2CD7 /* Assets.xcassets in Resources */,
+				E639525C1D3A4E9C002D2CD7 /* Oval 2.png in Resources */,
+				E63952591D3A4E51002D2CD7 /* Oval 1.png in Resources */,
+				E639524A1D3A479B002D2CD7 /* Rectangle 3.png in Resources */,
+				E63952621D3A737C002D2CD7 /* Oval 4.png in Resources */,
+				E63952321D3A28DC002D2CD7 /* username icon.png in Resources */,
+				E63952381D3A3336002D2CD7 /* email.png in Resources */,
+				E639522B1D3A26D5002D2CD7 /* bg.png in Resources */,
+				E63952561D3A4A15002D2CD7 /* img 2.png in Resources */,
+				E63952531D3A4881002D2CD7 /* doctor frame.png in Resources */,
 				E63952021D3A23EF002D2CD7 /* Main.storyboard in Resources */,
+				E639524F1D3A4881002D2CD7 /* patient frame.png in Resources */,
+				E63952351D3A2A6C002D2CD7 /* img.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +383,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E63952391D3A3336002D2CD7 /* email.png in Resources */,
+				E63952541D3A4881002D2CD7 /* doctor frame.png in Resources */,
+				E63952361D3A2A6C002D2CD7 /* img.png in Resources */,
+				E639523F1D3A4283002D2CD7 /* Rectangle 1.png in Resources */,
+				E63952571D3A4A15002D2CD7 /* img 2.png in Resources */,
+				E63952421D3A433C002D2CD7 /* Rectangle 2.png in Resources */,
+				E63952501D3A4881002D2CD7 /* patient frame.png in Resources */,
+				E63952301D3A28D6002D2CD7 /* password.png in Resources */,
+				E639525A1D3A4E51002D2CD7 /* Oval 1.png in Resources */,
+				E63952331D3A28DC002D2CD7 /* username icon.png in Resources */,
+				E63952601D3A4EE9002D2CD7 /* Oval 3.png in Resources */,
+				E63952631D3A737C002D2CD7 /* Oval 4.png in Resources */,
+				E63952521D3A4881002D2CD7 /* family member frame.png in Resources */,
+				E639525D1D3A4E9C002D2CD7 /* Oval 2.png in Resources */,
+				E639524B1D3A479B002D2CD7 /* Rectangle 3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +410,139 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06A15AE7850D23C559D7BC91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7AE84A0AE2FED809539013CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		94C2CF33F4A684EE4FA6695F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ready Set Go/Pods-Ready Set Go-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E89B49F030129D37FB98C95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ready Set GoUITests/Pods-Ready Set GoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAC402D978AB33EB749F0BAF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ready Set GoTests/Pods-Ready Set GoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0A369DA7E44A52F59C9E034 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F76E637E6716DF496086DA84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ready Set Go/Pods-Ready Set Go-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA028FB104712DFDF071A68F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ready Set GoTests/Pods-Ready Set GoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E63951F51D3A23EF002D2CD7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E63952471D3A452F002D2CD7 /* familyMemberViewController.swift in Sources */,
 				E63951FF1D3A23EF002D2CD7 /* ViewController.swift in Sources */,
 				E63951FD1D3A23EF002D2CD7 /* AppDelegate.swift in Sources */,
+				E63952441D3A4520002D2CD7 /* patientViewController.swift in Sources */,
+				E639523B1D3A361C002D2CD7 /* signUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +550,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E63952481D3A452F002D2CD7 /* familyMemberViewController.swift in Sources */,
+				E639523C1D3A361C002D2CD7 /* signUpViewController.swift in Sources */,
 				E63952121D3A23EF002D2CD7 /* Ready_Set_GoTests.swift in Sources */,
+				E63952451D3A4520002D2CD7 /* patientViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,28 +687,37 @@
 		};
 		E63952221D3A23EF002D2CD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1337A91500E642337E2DCAB4 /* Pods-Ready Set Go.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Ready Set Go/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.miriamhendler.Ready-Set-Go";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miriamhendler.Rady-Set-Go";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		E63952231D3A23EF002D2CD7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7345BA1306CB17A9662AE59F /* Pods-Ready Set Go.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Ready Set Go/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.miriamhendler.Ready-Set-Go";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miriamhendler.Rady-Set-Go";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 		E63952251D3A23EF002D2CD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED473C9975E0B7E9E799432B /* Pods-Ready Set GoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Ready Set GoTests/Info.plist";
@@ -433,6 +730,7 @@
 		};
 		E63952261D3A23EF002D2CD7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B25444BD211F384488B58C71 /* Pods-Ready Set GoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Ready Set GoTests/Info.plist";
@@ -445,6 +743,7 @@
 		};
 		E63952281D3A23EF002D2CD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EAD0C728CB01B3B1B4B40D7 /* Pods-Ready Set GoUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Ready Set GoUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,6 +755,7 @@
 		};
 		E63952291D3A23EF002D2CD7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE3D06FF911E537EE7F7E566 /* Pods-Ready Set GoUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Ready Set GoUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +784,7 @@
 				E63952231D3A23EF002D2CD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E63952241D3A23EF002D2CD7 /* Build configuration list for PBXNativeTarget "Ready Set GoTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +793,7 @@
 				E63952261D3A23EF002D2CD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E63952271D3A23EF002D2CD7 /* Build configuration list for PBXNativeTarget "Ready Set GoUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +802,7 @@
 				E63952291D3A23EF002D2CD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
